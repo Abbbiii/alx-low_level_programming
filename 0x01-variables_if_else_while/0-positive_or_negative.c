@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
  /**
-  * main - print if the given number is positive, negative or zero.
+  * main - print if the number is positive, negative or zero
   *
   * Description: using the main function
   * this program prints "is zero, is positive or is negative"
+  * Return: 0
   */
-int main(void)
+
+int main(void);
 {
 	int n;
 
@@ -28,3 +30,4 @@ int main(void)
 	}
 	return (0);
 }
+
