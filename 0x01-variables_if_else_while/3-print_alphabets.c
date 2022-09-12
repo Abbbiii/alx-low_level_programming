@@ -11,15 +11,17 @@
 
 int main(void)
 {
-	char low, e, q;
-
-	e = 'e';
-	q = 'q'
-	for (low = 'a'; low <= 'z' ; low++)
-{
-	if (low != e && low != q)
-		putchar(low);
-}
-printf("\n");
-return (0);
+	char lower_case;
+	char upper_case;
+	for (lower_case = 'a'; lower_cas <= 'z'; lower_case++)
+	{
+		putchar(lower_case);
+	}
+	for (upper_case = 'A'; upper+case <= 'Z'; upper_case++)
+	{
+		putchar(upper_case);
+	}
+	putchar("\n ")
+	
+	return (0)
 }
