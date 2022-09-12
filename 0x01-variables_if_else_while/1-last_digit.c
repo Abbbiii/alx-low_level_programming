@@ -10,7 +10,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int n;
 	int l;
@@ -28,7 +28,7 @@ int main()
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
 	return (0);
 }
