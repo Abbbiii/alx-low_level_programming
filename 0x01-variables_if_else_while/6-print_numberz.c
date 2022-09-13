@@ -10,12 +10,11 @@
 int main(void)
 
 {
-	int m;
-	int n;
+	int i;
 
-	for (m = 48; m <= 57; m++)
+	for (i = 48; i <= 57; i++)
 	{
-		putchar(m);
+		putchar(i);
 	}
 	putchar('\n ');
 
