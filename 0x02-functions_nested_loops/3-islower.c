@@ -1,9 +1,7 @@
 #include "main.h"
 
-
-
 /**
- * is lower - prints or checks the lower alphabet
+ * _islower -> checks if the character is lowercase
  *
  * @c: a character argument
  *
