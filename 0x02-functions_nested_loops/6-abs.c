@@ -4,8 +4,8 @@
 
 /**
  * _abs -> prints absolute value of a number
- * @n: parameter
- * Return: absolute value of a number
+ * @c: is the int that will be used for the argument
+ * Return: 0
  */
 
 int _abc(int c)
