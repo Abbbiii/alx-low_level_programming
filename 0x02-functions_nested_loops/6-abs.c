@@ -6,7 +6,7 @@
  * Return: absolute value of a number
  */
 
-int _abc(int n)
+int _abc(int c)
 
 {
 	if (c > 0 || c == 0)
