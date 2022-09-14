@@ -6,14 +6,14 @@
  * Return: absolute value of a number
  */
 
-int print_sign(int n)
+int _abc(int n)
 
 {
-
-	if (n < 0)
-
-		n = -n;
-
-	return (n);
-
+	if (c > 0 || c == 0)
+	{
+	return (c);
+	}
+	else
+	return(c * -1);
+	
 }
