@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <limits.h>
 #include "main.h"
 
 /**
- * _abs -> prints absolute value of a number
- * @c: is the int that will be used for the argument
+ * _abs - function that gives an absolute value of the input number
+ * @b: is the int that is going to be used in the function
  * Return: 0
  */
 
-int _abc(int c)
-
+int _abs(int b)
 {
-	if (c > 0 || c == 0)
+	if (c >= 0)
 	{
-	return (c);
+		return (c);
 	}
 	else
-	return(c * -1);
-	
+	{
+		return (c * -1);
+	}
 }
