@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints numbers 10x 0 - 14
+ * more_numbers - prints numbers 10 times 0 to 14
  *
  * Return: returns nothing
  */
