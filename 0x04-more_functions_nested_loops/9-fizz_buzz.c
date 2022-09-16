@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main(int h)
+void fizz_buzz(int h)
 {
 	int h = 1;
 
