@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 /**
- * fizz_buzz - prints numbers 1 to 100 and fizz buzz
- * @h: the character to be used
+ * main - function that checks for uppercase character.
  * Return: 0
  */
-
-void fizz_buzz(int h)
+int main(void)
 {
 	int h = 1;
 
