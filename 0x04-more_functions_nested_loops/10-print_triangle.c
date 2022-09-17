@@ -9,21 +9,21 @@
 
 void print_triangle(int size)
 {
-	int d1, d2;
+	int inc1, inc2;
 
 	if (size > 0)
 	{
-		for (d1 = 0; d1 <= size; d1++)
+		for (inc1 = 0; inc1 <= size; inc1++)
 		{
-			for ((d2 = size - d1); d2 > 0; d2--)
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
 			{
 				putchar(' ');
 			}
-			for (d2 = 0; d2 < d1; d2++)
+			for (inc2 = 0; inc2 < inc1; inc2++)
 			{
 				putchar('#');
 			}
-			if (d1 == size)
+			if (inc1 == size)
 			{
 				continue;
 			}
