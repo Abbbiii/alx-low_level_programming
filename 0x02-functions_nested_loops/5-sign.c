@@ -1,43 +1,26 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_sign -> prints sign based on condition
- * @n: argument passed
- * Return: 1, 0 -1
- */
+*more_numbers - prints numbers to 14
+*
+*Return: returns nothing
+*/
 
-int print_sign(int n)
-
+void more_numbers(void)
 {
+	int n1, n2;
 
-	if (n > 0)
-
+	for (n1 = 0; n1 < 10; n1++)
 	{
-
-		_putchar('+');
-
-		return (1);
-
+		for (n2 = 0; n2 <= 14; n2++)
+		{
+			if (n2 > 9)
+			{
+				putchar((n2 / 10) + '0');
+			}
+			putchar((n2 % 10) + '0');
+		}
+		putchar(10);
 	}
-
-	else if (n == 0)
-
-	{
-
-		_putchar('0');
-
-		return (0);
-
-	}
-
-	else
-
-	{
-
-		_putchar('-');
-
-		return (-1);
-
-	}
-
 }
