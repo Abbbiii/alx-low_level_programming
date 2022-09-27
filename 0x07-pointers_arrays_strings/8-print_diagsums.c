@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - prints the sums of the two diagonals of square matrix
- * @a: printer to start a matrix
+ * @a: printer to start of matrix
  * @size: width of matrix column
  *
  * Return: void
