@@ -52,14 +52,13 @@ int num_words(char *str)
 /**
  * strtow - splits a string into words
  * @str: string to be splitted
- * 
  * Return: pointer to the array of splitted words
  */
 
 char **strtow(char *str)
 {
 	char **split;
-	int i, j = 0, temp = 0, size = 0, word = num_words(str);
+	int i, j = 0, temp = 0, size = 0, words = num_words(str);
 
 	if (words == 0)
 		return (NULL);
@@ -73,7 +72,7 @@ char **strtow(char *str)
 			else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 			{
 				split[j] = (char *)malloc(sizeof(char) * size + 1);
-				if (spli[j] != NULL)
+				if (split[j] != NULL)
 				{
 					while (temp < size)
 					{
