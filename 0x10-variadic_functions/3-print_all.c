@@ -70,7 +70,7 @@ void print_all(const char * const format, ...)
 		{"f", print_f},
 		{NULL, NULL}
 	};
-	va_list valist
+	va_list valist;
 	char *separator = "";
 
 	va_start(valist, format);
