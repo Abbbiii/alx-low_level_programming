@@ -1,5 +1,3 @@
-1-list_len.c
-
 #include "lists.h"
 /**
  * list_len - returns then number of elements in a list.
