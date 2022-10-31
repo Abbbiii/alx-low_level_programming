@@ -1,20 +1,3 @@
-
-yonasleykun27
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-@yonasleykun27
-yonasleykun27 task 4
- 1 contributor
-319 lines (290 sloc)  6.75 KB
 /*
  * File: 100-elf_header.c
  * Auth: Brennan D Baraban
